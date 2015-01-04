@@ -1,7 +1,7 @@
 ---
 layout: page-with-sidebar
 title: About
-meta-description: about don mizutani, network security analyst, software developer, test automation enthusiast
+meta-description: about don mizutani, tokyo, japan,  network security analyst, software developer, test automation enthusiast
 ---
 
 This website was created as an excuse for me to get off my butt and start writing documents on a continual basis. And to brush up on my Japanese grammar.
