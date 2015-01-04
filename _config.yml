@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Don Mizutani
 tagline:          'Network Security Analyst. Software Developer. Test Automation Enthusiast.'
-description:      'TODO - A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Network Security Analyst. Software Developer. Test Automation Enthusiast.'
 url:              http://www.donmizutani.com
 baseurl:          /
 
