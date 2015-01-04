@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.0.1
 
+# GitHub repo URL
 github:
   repo:           https://github.com/donmizutani/donmizutani.github.io
