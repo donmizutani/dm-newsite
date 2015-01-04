@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Don Mizutani
+tagline:          'Network Security Analyst. Software Developer. Test Automation Enthusiast.'
+description:      'TODO - A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://www.donmizutani.com
+baseurl:          /
+
+author:
+  name:           'Don Mizutani'
+  url:            https://twitter.com/donmizutani
+
+paginate:         5
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/donmizutani/donmizutani.github.io
