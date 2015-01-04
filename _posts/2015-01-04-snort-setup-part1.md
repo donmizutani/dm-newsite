@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to set up your own Network Intrusion Detection System (NIDS) using Snort - Part 1
+title: How to set up your own Network Intrusion Detection System (NIDS) with Snort - Part 1
 ---
 
 
