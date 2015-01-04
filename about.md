@@ -3,28 +3,23 @@ layout: page-with-sidebar
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This website was created as an excuse for me to get off my butt and start writing documents on a continual basis. And to brush up on my Japanese grammar.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+It will also be used to collate together information from my studies and experimentation with security tools and playing around with vulnerabilities - as I transition from being a software (web) developer to being a network security professional.
 
-There are currently two themes built on Poole:
+As such, the language is going to be a mix of casual and formal. Casual - so it is easier for readers to dive in, but also formal - so I am actually writing this as though I am giving this to a customer to use.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+It will also be written in both English and Japanese. English first, Japanese later when I have the time to translate.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+### DISCLAIMER
+All opinions on this website are  my own.
 
-Some fun facts about the setup of this project include:
+They do not reflect the opinions of my employer, current or past.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+They also do not reflect my opinions towards my employer, current or past.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Feel free to contact me for corrections, advice and other discussion.
+Email: don 【dot】mizutani 【at】 gmail 【dot】 com
 
-Thanks for reading!
+Replace the values in the 【】 brackets with their ascii equivalents.
