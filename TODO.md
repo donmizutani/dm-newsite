@@ -19,3 +19,4 @@ Interesting findings in study and experimentation, from someone who comes from a
 
 Tools - tcpdump, wireshark, tshark, general unix/linux file/text manipulation on the command line
 
+meta-description: network security, network ids, experiment, vulnerabilities, exploits, scripting and security assessment tools, snort, esxi, dd-wrt, openwrt, tokyo, japan
