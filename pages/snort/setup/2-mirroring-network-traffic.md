@@ -3,6 +3,9 @@ layout: page
 title: Setting up Snort - Part 2 - Mirroring Network Traffic
 meta-description: iptables mangle tee route, prerouting, postrouting, openwrt, dd-wrt, snort network ids mirroring network traffic 
 ---
+
+[< Previous: Part 1 - Overview](/pages/snort/setup/1-overview)
+
 **Note: If you own a router or switch that has a built in SPAN or equivalent mirroring port, feel free to skip to (Part 3-TODO).**
 
 The typical home network setup has a modem provided by the ISP connected to a broadband router, which provides wired and wireless internet access to home devices.
