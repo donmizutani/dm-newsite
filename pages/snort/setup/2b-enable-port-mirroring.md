@@ -39,7 +39,15 @@ meta-description: port mirroring, iptables, tee, home router, dd-wrt, openwrt
 
 3. Scroll down to the **Table: Mangle** section and make sure the **Chain PREROUTING** and **Chain POSTROUTING** sections has an entry for TEE and your specified Snort host IP.
 
-TODO screenshot of tee
+![Sample TEE configuration](/pages/snort/setup/2b-tee.png)
+
+In the sample screenshot, "TEE gw:192.168.2.12" denotes the IP address of my Snort host where I am forwarding a copy of my packets to.
+
+Note also that Source and Destination of 0.0.0.0/0 means the router is cloning all ingress and egress packets on the network.
+
+If you want to limit to certain IP address, IP ranges and/ or subnets, you can use the -d and -s parameters to limit to single IP host or subnet, for destination and source respectively.
+
+Please consult the iptables documentation for more info.
 
 ### Turning off port mirroring
 
