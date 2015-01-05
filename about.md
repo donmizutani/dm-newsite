@@ -1,8 +1,15 @@
 ---
 layout: page-with-sidebar
 title: About
-meta-description: about don mizutani, tokyo, japan,  network security analyst, software developer, test automation enthusiast
+meta-description: about don mizutani, tokyo, japan, network security analyst, software developer, test automation enthusiast
 ---
+
+###Summary
+Don Mizutani comes from a background of extensive software development, testing and QA covering all stacks of modern web systems. He recently moved into the Security industry to pursue his passion for network security analysis and consulting.
+
+He currently lives and works in Tokyo, Japan.
+
+###Personal Comments
 
 This website was created as an excuse for me to get off my butt and start writing documents on a continual basis. And to brush up on my Japanese grammar.
 
@@ -21,6 +28,7 @@ They do not reflect the opinions of my employer, current or past.
 They also do not reflect my opinions towards my employer, current or past.
 
 Feel free to contact me for corrections, advice and other discussion.
-Email: don 【dot】mizutani 【at】 gmail 【dot】 com
+
+Email: don 【\_dot\_】mizutani 【\_at\_】 gmail 【\_dot\_】 com
 
 Replace the values in the 【】 brackets with their ascii equivalents.
