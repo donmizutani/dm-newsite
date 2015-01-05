@@ -33,12 +33,8 @@ start() {
 
     ```
 # chmod +x /etc/init.d/[_script_file_]
-# /etc/init.d/[_script_file_] enable  #places entry S99weather in /etc/rc.d/
+# /etc/init.d/[_script_file_] enable
     ```
-
-    Replace [\_script\_file\_] with the name of the script.
-
-    The second line will place a new symlink in /etc/rc.d - e.g., S99[\_script\_file\_].
 
     Replace [\_script\_file\_] with the name of the script.
 

@@ -37,7 +37,7 @@ meta-description: port mirroring, iptables, tee, home router, dd-wrt, openwrt
 
 2. Highlight the **Status** menu, and select **Firewall** from the drop-down menu list.
 
-3. Scroll down to the **Table: Mangle** section and make sure the **Chain PREROUTING** and **Chain POSTROUTING** sections has an entry for TEE and your speficied Snort host IP.
+3. Scroll down to the **Table: Mangle** section and make sure the **Chain PREROUTING** and **Chain POSTROUTING** sections has an entry for TEE and your specified Snort host IP.
 
 TODO screenshot of tee
 
