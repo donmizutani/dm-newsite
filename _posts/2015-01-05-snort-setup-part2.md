@@ -6,7 +6,7 @@ meta-description: setup snort network ids, port mirroring, network traffic, part
 
 Setting up port mirroring on your home router, so a copy of the network packet can be forwarded to your Snort host for capture, inspection, processing and so on.
 
-[Setting up a home NIDS (Snort) - Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic)
+[Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic)
 
-[< Previous: Part 1](/2015/01/04/snort-setup-part1/)
+[< Previous: Part 1 - Overview](/2015/01/04/snort-setup-part1/)
 

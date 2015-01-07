@@ -59,5 +59,5 @@ It also supports TZSP, which encapsulates the entire packet, making sure the dat
 
 ... TODO ...
 
-Next > Part 3
+[Next > Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort)
 
