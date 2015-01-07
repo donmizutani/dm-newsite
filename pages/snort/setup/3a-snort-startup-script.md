@@ -40,7 +40,7 @@ Register script to run on OS startup.
 # /var/log/snort$ initctl list | grep snort
 ```
 
-Restart Ubuntu and confirmt that snort ran on startup as daemon. 
+Restart Ubuntu and confirm that snort ran on startup as daemon. 
 
 ```
 # ps -e | grep -i snort
