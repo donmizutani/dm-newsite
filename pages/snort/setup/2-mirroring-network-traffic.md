@@ -6,7 +6,7 @@ meta-description: iptables mangle tee route, prerouting, postrouting, openwrt, d
 
 [< Previous: Part 1 - Overview](/pages/snort/setup/1-overview)
 
-**Note: If you own a router or switch that has a built in SPAN or equivalent mirroring port, feel free to skip to (Part 3-TODO).**
+**Note: If you own a router or switch that has a built in SPAN or equivalent mirroring port, feel free to skip to [Part 3](/pages/snort/setup/3-installing-snort).**
 
 The typical home network setup has a modem provided by the ISP connected to a broadband router, which provides wired and wireless internet access to home devices.
 
@@ -56,8 +56,6 @@ The above iptables configuration is temporary, your configuration will be lost w
 This project is an alternative to iptables TEE.
 
 It also supports TZSP, which encapsulates the entire packet, making sure the data down to the ethernet frame layer is preserved.
-
-... TODO ...
 
 [Next > Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort)
 

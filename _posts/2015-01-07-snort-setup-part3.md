@@ -9,5 +9,6 @@ In the third part of this series on setting up a Network IDS, we are finally ins
 [Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort)
 
 [< Previous: Part 1 - Overview](/2015/01/04/snort-setup-part1/)
+
 [< Previous: Part 2 - Mirroring Network Traffic](/2015/01/05/snort-setup-part2/)
 
