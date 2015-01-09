@@ -8,5 +8,5 @@ Setting up port mirroring on your home router, so a copy of the network packet c
 
 [Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic)
 
-[< Previous: Part 1 - Overview](/2015/01/04/snort-setup-part1/)
+[< Previous: Part 1 - Overview](/2015/01/04/snort-setup-part1)
 
