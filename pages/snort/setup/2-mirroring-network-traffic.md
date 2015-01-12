@@ -4,7 +4,7 @@ title: Setting up Snort - Part 2 - Mirroring Network Traffic
 meta-description: iptables mangle tee route, prerouting, postrouting, openwrt, dd-wrt, snort network ids mirroring network traffic 
 ---
 
-[< Previous: Part 1 - Overview](/pages/snort/setup/1-overview)
+[< Part 1 - Overview](/pages/snort/setup/1-overview) | [Part 3 - Installing Snort >](/pages/snort/setup/3-installing-snort)
 
 **Note: If you own a router or switch that has a built in SPAN or equivalent mirroring port, feel free to skip to [Part 3](/pages/snort/setup/3-installing-snort).**
 
@@ -57,5 +57,5 @@ This project is an alternative to iptables TEE.
 
 It also supports TZSP, which encapsulates the entire packet, making sure the data down to the ethernet frame layer is preserved.
 
-[Next > Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort)
+[< Part 1 - Overview](/pages/snort/setup/1-overview) | [Part 3 - Installing Snort >](/pages/snort/setup/3-installing-snort)
 

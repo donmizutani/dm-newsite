@@ -4,7 +4,7 @@ title: Setting up Snort - Part 3 - Installing Snort
 meta-description: installing snort, ubuntu 14.04 lts
 ---
 
-[< Previous: Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic)
+[< Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic) | [Part 4 - Installing PulledPork >](/pages/snort/setup/4-installing-pulledpork)
 
 This will cover installing Snort on Ubuntu 14.04 LTS specifically. You can find other guides for your OS / distribution [on the official home page](https://www.snort.org/documents).
 
@@ -244,5 +244,5 @@ We are not done yet! All rules are currently disabled due to the operations in s
 
 The next part will cover setting up PulledPork, which will automatically update Snort rules.
 
-[Next > Part 4 - Installing PulledPork](/pages/snort/setup/4-installing-pulledpork)
+[< Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic) | [Part 4 - Installing PulledPork >](/pages/snort/setup/4-installing-pulledpork)
 

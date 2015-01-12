@@ -4,7 +4,7 @@ title: Setting up Snort - Part 1 - Overview
 meta-description: snort network ids setup overview 
 ---
 
-[Next > Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic)
+[Part 2 - Mirroring Network Traffic >](/pages/snort/setup/2-mirroring-network-traffic)
 
 This guide is for the majority of us who have a normal home broadband setup and want to be able to effectively monitor their network traffic.
 
@@ -29,5 +29,5 @@ Steps required to get Snort installed and capturing your traffic.
 - Getting logging setup for Snort
 - Installing an SIEM or Barnyard2 to make sense of the Snort logs
 
-[Next > Part 2 - Mirroring Network Traffic](/pages/snort/setup/2-mirroring-network-traffic) 
+[Part 2 - Mirroring Network Traffic >](/pages/snort/setup/2-mirroring-network-traffic)
 

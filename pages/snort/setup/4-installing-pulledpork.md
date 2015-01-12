@@ -4,7 +4,7 @@ title: Setting up Snort - Part 4 - Installing PulledPork
 meta-description: installing pulledpork, ubuntu 14.04 lts
 ---
 
-[< Previous: Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort)
+[< Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort) | [Part 5 - Installing Barnyard2 and MySQL >](/pages/snort/setup/5-installing-barnyard2-mysql)
 
 ## 1. Setting up PulledPork
 
@@ -150,7 +150,7 @@ PulledPork will now download new rule updates daily, and protect you from 0-day 
 
 The next part will cover setting up Barnyard2 and MySQL, so you can make use of the data that Snort has logged!
 
-[Next > Part 5 - Installing Barnyard2 and MySQL](/pages/snort/setup/5-installing-barnyard2-mysql)
+[< Part 3 - Installing Snort](/pages/snort/setup/3-installing-snort) | [Part 5 - Installing Barnyard2 and MySQL >](/pages/snort/setup/5-installing-barnyard2-mysql)
 
 [Before moving on, a bit of advice on why you should not install everything on the same machine or VM.](/pages/snort/setup/4a-system-separation)
 

@@ -4,7 +4,7 @@ title: Setting up Snort - Part 5 - Installing Barnyard2 and MySQL
 meta-description: installing barnyard2, configure mysql, snort
 ---
 
-[< Previous: Part 4 - Installing PulledPork](/pages/snort/setup/4-installing-pulledpork)
+[< Part 4 - Installing PulledPork](/pages/snort/setup/4-installing-pulledpork)
 
 As discussed [here](/pages/snort/setup/4a-system-separation), having everything on the same VM or machine is **not desirable**.
 
