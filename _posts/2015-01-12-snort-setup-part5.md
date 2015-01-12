@@ -4,6 +4,8 @@ title: How to set up your own Network Intrusion Detection System (NIDS) with Sno
 meta-description: install barnyard2, mysql, snort, network ids, part 5 post
 ---
 
+The last part of my guide on setting up Snort and related tools in a home lab / network environment!
+
 Now that Snort is running and analyzing your home network traffic, we need a way to make sense of the alert logs that Snort writes out.
 
 [Part 5 - Installing Barnyard2 and MySQL](/pages/snort/setup/5-installing-barnyard2-mysql)

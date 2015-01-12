@@ -6,7 +6,7 @@ meta-description: automate barnyard2 batch mode
 
 [< Back: Part 5 - Installing Barnyard2 and MySQL](/pages/snort/setup/5-installing-barnyard2-mysql)
 
-This will allow you to run Barnyard2 on demand on on a schedule.
+This will allow you to run Barnyard2 on demand, or at a scheduled time.
 
 In order to automate this, we need a script that can do the following steps.
 
@@ -14,13 +14,15 @@ In order to automate this, we need a script that can do the following steps.
 2. Create the Barnyard2 snort database.
 3. Import the Barnyard MySQL schema.
 4. Copy all files from the specified Snort log folder to a temporary folder that Barnyard2 will process from.
-5. Loop through every Snort log file copied to the temporary folder and run with Barnyard2 with -o [_logfile_]
+5. Loop through every Snort log file copied to the temporary folder and run with Barnyard2 with -o [\_logfile\_]
 
-Note that, although the author's [documentation](https://github.com/firnsy/barnyard2) says it supports specifying multiple files with the -o parameter, I have found that the latest version will not process more than one file.
+Note that, although the author's [documentation](https://github.com/firnsy/barnyard2) says it supports specifying multiple files with the -o parameter, I have found that the latest version will **not process past the first file specified**.
 
 I have also noticed segfaults occuring in this tool, so calling Barnyard2 for one file at a time ensures that subsequent files get processed even if the tool segfaults on a previous file.
 
-Regarding segfaults, there seems to be no solution other than downgrading to a version before 2-1.10 and before.
+Regarding segfaults, the author has mentioned on a Google groups thread that there may be a bug introduced in 2-1.13 (can't find that specific thread right now).
+
+The only solutions seems to be downgrading (building) to a version before 2-1.10 and before.
 
 
 ```

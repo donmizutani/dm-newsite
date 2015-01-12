@@ -56,7 +56,7 @@ If you are running a 64-bit OS:
 # ./configure --with-mysql --with-mysql-libraries=/usr/lib/x86_64-linux-gnu
 ```
 
-**else***, for 32-bit OS:
+**else**, for 32-bit OS:
 
 ```
 # ./configure --with-mysql --with-mysql-libraries=/usr/lib/i386-linux-gnu
@@ -67,6 +67,11 @@ If no errors show up, build the Barnyard2 binaries.
 ```
 # make
 # sudo make install
+```
+
+Initialize required files.
+
+```
 # sudo cp etc/barnyard2.conf /etc/snort
 # sudo mkdir /var/log/barnyard2
 ```
@@ -87,23 +92,26 @@ Now we need to create the db/schema for Barnyard2.
 
 ```
 # echo "create database snort;" | mysql --host=[_mysql_server_ipaddress_] --user=barnyard2 --password=[_password_]
+
 # mysql --host=[_mysql_server_ipaddress_] --user=barnyard2 --password=[_password_] -D snort < ~/snort_src/barnyard2-master/schemas/create_mysql
 ```
 
 Replacing
+
 - [\_mysql\_server\_ipaddress\_] with the MySQL ip address.
 - [\_password\_] with the barnyard2 account password.
   - The above assumes you have created an account "barnyard2" per [Part 5a](/pages/snort/setup/5a-configuring-mysql-for-barnyard2).
 
 ### Configuring Barnyard2 to use your MySQL server instance
 
-At the following line to the end of /etc/snort/barnyard2.conf
+Add the following line to the end of /etc/snort/barnyard2.conf
 
 ```
 output database: log, mysql, user=barnyard2 password=[_password_] dbname=snort host=[_mysql_server_ipaddress_]
 ```
 
 Replacing
+
 - [\_mysql\_server\_ipaddress\_] with the MySQL ip address.
 - [\_password\_] with the barnyard2 account password.
   - The above assumes you have created an account "barnyard2" per [Part 5a](/pages/snort/setup/5a-configuring-mysql-for-barnyard2).
@@ -121,7 +129,7 @@ Because the MySQL account password is stored in barnyard2.conf, we should secure
 We can finally test out Barnyard2!
 
 ```
-sudo barnyard2 -c /etc/snort/barnyard2.conf -o [_snort_log_file_]
+# sudo barnyard2 -c /etc/snort/barnyard2.conf -o [_snort_log_file_]
 ```
 
 Replacing

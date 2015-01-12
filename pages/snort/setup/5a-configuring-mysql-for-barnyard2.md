@@ -6,7 +6,7 @@ meta-description: configure mysql server for barnyard2, snort
 
 [< Back: Part 5 - Installing Barnyard2 and MySQL](/pages/snort/setup/5-installing-barnyard2-mysql)
 
-This guide will not explain how to install the MySQL server. It is up to you to decide Where the MySQL server is installed.
+**Note: this guide will not explain how to install the MySQL server. It is up to you to decide where the MySQL server is installed.**
 
 For reference, I installed my MySQL server instance on a Mac Mini.
 
@@ -14,14 +14,14 @@ MySQL packages can be downloaded [here](http://dev.mysql.com/downloads).
 
 Recommended packages:
 
-- MySQL Community Server (server, must)
+- MySQL Community Server (server, required)
 - MySQL Workbench (GUI client, optional, depending on your environment)
 
 ### Remove unnecessary default accounts
 
 If you are installing Barnyard2 and the MySQL client on a VM or machine that is separate from the MySQL server, then it is recommended to
 
-- Remove all anonymous accounts created by default on installation
+- Remove all anonymous accounts that were created by default on installation
 - Restrict the "root" account to localhost login only
 
 ### Create an account for Barnyard2
@@ -39,19 +39,24 @@ As the Barnyard2 instance is installed on a different VM or machine to the MySQL
   - Create
   - Drop
 
-- Limit account login from the Barnyard2 host IP. For this to work, make sure you have set the Barnyard2 host to a static IP.
+- Limit account login to the Barnyard2 host IP.
+  - For this to work, make sure you have set the Barnyard2 host to a static IP.
 
-- Operations not required on this account
-  - MySQL admin operation related privileges.
+- Do not set privilege on other operations not required on this account
+  - e.g., MySQL admin operation related privileges.
 
-Log into the MySQL instance and execute the following query, to create a
+Log into the MySQL instance and execute the following query, to create the account with only the required privileges.
+
 ```
-2. grant create, insert, select, delete, alter, update, drop on snort.* to barnyard2@[_ipaddress_] identified by '[_password_]'
+grant create, insert, select, delete, alter, update, drop on snort.* to barnyard2@[_ipaddress_] identified by '[_password_]'
 ```
 
-Replace [\_ipaddress\_] with the Barnyard2 host IP, [\_password\_] with the desired password for this account.
+Replacing
 
-When the above query successfully executes, a new account **barnyard2** will be created, with the above required operation privileges and limited access to the Barnyard2 host IP.
+- [\_ipaddress\_] with the Barnyard2 host IP.
+- [\_password\_] with the desired password for this account.
+
+When the above query successfully executes, a new account "barnyard2" will be created, with the above required operation privileges and limited access to the Barnyard2 host IP.
 
 Below is a sample of the created account I use, taken from  Mac OS MySQL Workbench.
 
