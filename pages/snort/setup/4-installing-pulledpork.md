@@ -150,9 +150,7 @@ PulledPork will now download new rule updates daily, and protect you from 0-day 
 
 The next part will cover setting up Barnyard2 and MySQL, so you can make use of the data that Snort has logged!
 
-... TODO ...
-
-Next > Part 5 - Installing Barnyard2 and MySQL
+[Next > Part 5 - Installing Barnyard2 and MySQL](/pages/snort/setup/5-installing-barnyard2-mysql)
 
 [Before moving on, a bit of advice on why you should not install everything on the same machine or VM.](/pages/snort/setup/4a-system-separation)
 
