@@ -10,7 +10,7 @@ meta-description: iptables mangle tee route, prerouting, postrouting, openwrt, d
 
 The typical home network setup has a modem provided by the ISP connected to a broadband router, which provides wired and wireless internet access to home devices.
 
-![General Home Network Diagrao](/pages/snort/setup/2-general-home-network.png)
+![General Home Network Diagram](/pages/snort/setup/2-general-home-network.png)
 
 As you can see in the diagram, in order for the machine where Snort lives to capture and process the network traffic zipping around the home, there needs to be a way to forward a copy of all the traffic there.
 
