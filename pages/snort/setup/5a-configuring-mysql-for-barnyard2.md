@@ -46,10 +46,10 @@ As the Barnyard2 instance is installed on a different VM or machine to the MySQL
 
 Log into the MySQL instance and execute the following query, to create a
 ```
-2. grant create, insert, select, delete, alter, update, drop on snort.* to barnyard2@ip-address identified by 'passwordhere'
+2. grant create, insert, select, delete, alter, update, drop on snort.* to barnyard2@[_ipaddress_] identified by '[_password_]'
 ```
 
-Replace **ip-address** with the Barnyard2 host IP, **passwordhere** with the desired password for this account.
+Replace [\_ipaddress\_] with the Barnyard2 host IP, [\_password\_] with the desired password for this account.
 
 When the above query successfully executes, a new account **barnyard2** will be created, with the above required operation privileges and limited access to the Barnyard2 host IP.
 
