@@ -28,7 +28,7 @@ meta-description: port mirroring, iptables, tee, home router, dd-wrt, openwrt
 # iptables -t mangle -A POSTROUTING -j TEE --gateway [_ipaddress_]
     ```
 
-    where [_ipaddress_] is the IP address where your Snort host is located.
+    where [\_ipaddress\_] is the IP address where your Snort host is located.
 
 5. If all the previous commands executed without error, then you have successfully set up port mirroring.
 

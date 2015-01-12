@@ -106,7 +106,7 @@ We will setup an initial configuration for Snort.
   - My recommendation for logging is to move this to a central logging system.
   - My setup currently stores files in an NFS location (upgrading to NAS in the future). syslog also works great for this.
 
-### 2.4.1 Create unprivileged Snort  account and required initial files
+### 2.4.1 Create unprivileged Snort account and required initial files
 
 The commands below are direct copy and paste from the guide on the official page. Run these one at a time and if you run into errors, action them accordingly.
 

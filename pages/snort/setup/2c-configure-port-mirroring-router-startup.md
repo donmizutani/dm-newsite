@@ -21,7 +21,7 @@ start() {
 }
     ```
 
-    Replace [_ipaddress_] with your Snort host IP address.
+    Replace [\_ipaddress\_] with your Snort host IP address.
 
     START=99 denotes the order in which scripts execute on boot.
 
