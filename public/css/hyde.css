@@ -115,6 +115,9 @@ a.sidebar-nav-item:focus {
   }
 }
 
+div.sidebar-sticky {
+  text-align: left;
+}
 
 /* Container
  *
