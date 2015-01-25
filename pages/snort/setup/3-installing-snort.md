@@ -65,7 +65,7 @@ By including this, Snort will restart on the fly for such operations as updated 
 This is especially valuable when combined with PulledPork [covered in part 4](/pages/snort/setup/4-installing-pulledpork) on a cron schedule - Snort will automatically restart if PulledPork updates the rules.
 
 ```
-# cd ~/ snort_src
+# cd ~/snort_src
 # wget https://www.snort.org/downloads/snort/snort-2.9.7.0.tar.gz
 # tar zxvf snort-2.9.7.0.tar.gz
 # cd snort-2.9.7.0
